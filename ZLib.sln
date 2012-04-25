@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic_lib", "basic_lib\basic_lib.vcxproj", "{74B022F2-324B-4686-B84F-2DD046E611CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luaplus", "import\src_luaplus\luaplus.vcxproj", "{AA75B895-9958-4D71-9419-D86946478CAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74B022F2-324B-4686-B84F-2DD046E611CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74B022F2-324B-4686-B84F-2DD046E611CC}.Debug|Win32.Build.0 = Debug|Win32
+		{74B022F2-324B-4686-B84F-2DD046E611CC}.Release|Win32.ActiveCfg = Release|Win32
+		{74B022F2-324B-4686-B84F-2DD046E611CC}.Release|Win32.Build.0 = Release|Win32
+		{AA75B895-9958-4D71-9419-D86946478CAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA75B895-9958-4D71-9419-D86946478CAA}.Debug|Win32.Build.0 = Debug|Win32
+		{AA75B895-9958-4D71-9419-D86946478CAA}.Release|Win32.ActiveCfg = Release|Win32
+		{AA75B895-9958-4D71-9419-D86946478CAA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
