@@ -15,3 +15,6 @@
 *.suo
 /bin/debug
 /bin/release
+*.opensdf
+/basic_lib/Debug
+/ipch

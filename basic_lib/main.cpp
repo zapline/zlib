@@ -71,7 +71,7 @@ void test_test()
 
     //test_MemoryFile();
 
-    //test_luaplus();
+    test_luaplus();
 
     test_unzip();
 }

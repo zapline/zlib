@@ -29,7 +29,7 @@ void test_luaplus()
     LuaStateOwner state;
     state->GetGlobals().Register("PrintNumber", LS_PrintNumber);
     CStringA strPathFile( CAppPath::Instance().GetCurrentDir() );
-    strPathFile += "test.lua";
+    strPathFile += "..\\..\\document\\test_lua.lua";
     int iret = state->DoFile(strPathFile);
     int g_num = state->GetGlobal("g_num").GetInteger();
     LuaFunction <float> Add = state->GetGlobal("Add");
