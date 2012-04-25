@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="import">
+      <UniqueIdentifier>{849411f9-b078-475a-b637-fccf1b0e0ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\tinyxml">
+      <UniqueIdentifier>{d144abea-ce20-45e4-bed2-f2e9c1a9ee27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import_test">
+      <UniqueIdentifier>{cee65896-0f4b-49d5-8f3f-f5072eb8da07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\aes">
+      <UniqueIdentifier>{0194f9b2-7e5b-45f7-b69a-b97f6438e31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import_test\tinyxml">
+      <UniqueIdentifier>{c0c27b41-b247-41be-9f58-736e4e47754e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import_test\aes">
+      <UniqueIdentifier>{371c58c1-be7c-4095-94ab-8135e36f3034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit">
+      <UniqueIdentifier>{5bb01f3c-03d6-45c9-96b4-86632977fcb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test">
+      <UniqueIdentifier>{6f240eb9-9a01-42f6-af91-5d63d7c9b1a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\basic">
+      <UniqueIdentifier>{4e8a869e-8089-41b0-b9bd-0bb39ae075ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\basic">
+      <UniqueIdentifier>{81055cd9-dfd5-41e5-8894-0301d884e4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\ProgressBar">
+      <UniqueIdentifier>{71f12f62-9118-47fb-b944-127dad3c95c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\ProgressBar">
+      <UniqueIdentifier>{cc9375c7-b280-41e4-92d6-48b4929903a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\string">
+      <UniqueIdentifier>{be277dfb-7ab8-4ff0-a44c-d6ad574a624c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\string">
+      <UniqueIdentifier>{ff6012e1-1d5f-417f-89e2-a98a52730319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\system">
+      <UniqueIdentifier>{9e2dd6ca-d86a-47c6-b5ef-54b684feecce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\system\file">
+      <UniqueIdentifier>{0da2bdd8-ddc9-4e5b-ad90-cc2977fc0d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\string\pinyin">
+      <UniqueIdentifier>{8df30cfb-7717-4fa7-9ab0-e6d2233a6eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\system\wow64">
+      <UniqueIdentifier>{b8c2ae3a-8808-4ef9-8f57-eb3ca0e2e354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\system\component">
+      <UniqueIdentifier>{a5ce7099-4e41-4840-acd6-54986c1d750d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\system">
+      <UniqueIdentifier>{ef8eb18f-26d0-4c9e-b743-5aeaa89a8b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\system\file">
+      <UniqueIdentifier>{7b014862-d271-4675-8965-089424395efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\basic\lockhelper">
+      <UniqueIdentifier>{583ecaac-8e8a-4c5e-bb45-97faca73a487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\system\file\ini">
+      <UniqueIdentifier>{5aee8493-bfe1-4e37-9382-08c02b50f4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\system\file\ini">
+      <UniqueIdentifier>{3e66f8e6-753b-4030-b2bf-e1b225d17bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\string\url">
+      <UniqueIdentifier>{ad4d1483-d1a6-40fe-b58e-66dc08de16ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\string\wildcard">
+      <UniqueIdentifier>{b36c313e-3593-4940-aaba-5e2ba474908c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\string\download_size">
+      <UniqueIdentifier>{a5da40e9-b1d2-4372-be2c-2b324cf32e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\system\path">
+      <UniqueIdentifier>{71bac40d-7121-463b-bc2a-b2d17cf213cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\system\path">
+      <UniqueIdentifier>{e1c5bcb4-fa54-4758-9531-c48376980a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\system\time">
+      <UniqueIdentifier>{259b05ba-ef51-4bba-91e7-ba5e85951d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\system\time">
+      <UniqueIdentifier>{34115eae-ef24-442f-a638-27122f001818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\basic\lockhelper">
+      <UniqueIdentifier>{4e0145d4-be3a-45c8-8fb2-989d0cfc7bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\net">
+      <UniqueIdentifier>{a4b6d458-ab4c-4a66-b722-27c77f12a3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\net\http">
+      <UniqueIdentifier>{4951318e-f4e8-4fd1-961e-006369c9e7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test\net">
+      <UniqueIdentifier>{1c07d369-8729-4284-9e74-2ff2ee7fd551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\system\OSVersion">
+      <UniqueIdentifier>{28b9a665-7e01-4631-ab37-bebcfcdd5e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\basic\template">
+      <UniqueIdentifier>{d5958eb8-d121-4c15-bc5f-3db3a6c0e8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\luaplus">
+      <UniqueIdentifier>{45f026b3-2b8e-4812-983a-ef4c41351dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import_test\luaplus">
+      <UniqueIdentifier>{e990b9d6-6305-4a9a-868b-8cfac8e2707d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit\ui">
+      <UniqueIdentifier>{573496c7-6919-4200-a1f2-1586b5bb3ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\unzip">
+      <UniqueIdentifier>{c953008a-b817-45a4-ba74-4e0c7731b602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import_test\unzip">
+      <UniqueIdentifier>{8cd39714-a391-4053-97d7-845139639bbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\tinyxml\tinyxml.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\tinyxml\tinyxmlparser.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\tinyxml\tinyxmlerror.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\tinyxml\tinystr.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\aes\aes.cpp">
+      <Filter>import\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="test_tinyxml.cpp">
+      <Filter>import_test\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="OperaterProgressBar.cpp">
+      <Filter>unit\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>unit\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberProgressBarTest.cpp">
+      <Filter>unit_test\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="test_SimpleEnumFile.cpp">
+      <Filter>unit_test\system\file</Filter>
+    </ClCompile>
+    <ClCompile Include="FileVersionInfo.cpp">
+      <Filter>unit\system\file</Filter>
+    </ClCompile>
+    <ClCompile Include="test_CFileVersionInfo.cpp">
+      <Filter>unit_test\system\file</Filter>
+    </ClCompile>
+    <ClCompile Include="test_Wildcard.cpp">
+      <Filter>unit_test\string</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigMgr.cpp">
+      <Filter>unit\system\file\ini</Filter>
+    </ClCompile>
+    <ClCompile Include="URLEncode.cpp">
+      <Filter>unit\string\url</Filter>
+    </ClCompile>
+    <ClCompile Include="Wildcard.cpp">
+      <Filter>unit\string\wildcard</Filter>
+    </ClCompile>
+    <ClCompile Include="DownLoadSize.cpp">
+      <Filter>unit\string\download_size</Filter>
+    </ClCompile>
+    <ClCompile Include="test_DownLoadSize.cpp">
+      <Filter>unit_test\string</Filter>
+    </ClCompile>
+    <ClCompile Include="AppPath.cpp">
+      <Filter>unit\system\path</Filter>
+    </ClCompile>
+    <ClCompile Include="test_AppPath.cpp">
+      <Filter>unit_test\system\path</Filter>
+    </ClCompile>
+    <ClCompile Include="time_unit.cpp">
+      <Filter>unit\system\time</Filter>
+    </ClCompile>
+    <ClCompile Include="test_time.cpp">
+      <Filter>unit_test\system\time</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpHelper.cpp">
+      <Filter>unit\net\http</Filter>
+    </ClCompile>
+    <ClCompile Include="test_http.cpp">
+      <Filter>unit_test\net</Filter>
+    </ClCompile>
+    <ClCompile Include="OSVersion.cpp">
+      <Filter>unit\system\OSVersion</Filter>
+    </ClCompile>
+    <ClCompile Include="test_OSVersion.cpp">
+      <Filter>unit_test\system</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemInfo.cpp">
+      <Filter>unit\system</Filter>
+    </ClCompile>
+    <ClCompile Include="test_MemoryFile.cpp">
+      <Filter>unit_test\system\file</Filter>
+    </ClCompile>
+    <ClCompile Include="test_SystemInfo.cpp">
+      <Filter>unit_test\system</Filter>
+    </ClCompile>
+    <ClCompile Include="test_luaplus.cpp">
+      <Filter>import_test\luaplus</Filter>
+    </ClCompile>
+    <ClCompile Include="MsiComp.cpp">
+      <Filter>unit\system\component</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderClip.cpp">
+      <Filter>unit\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorBase.cpp">
+      <Filter>unit\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\unzip\XUnzip.cpp">
+      <Filter>import\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="test_unzip.cpp">
+      <Filter>import_test\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="OperFile.cpp">
+      <Filter>unit\system\file</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\import\tinyxml\utf8testverify.xml">
+      <Filter>import\tinyxml</Filter>
+    </None>
+    <None Include="..\import\tinyxml\utf8test.xml">
+      <Filter>import\tinyxml</Filter>
+    </None>
+    <None Include="..\document\pinyin.xml">
+      <Filter>unit\string\pinyin</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\import\tinyxml\tinyxml.h">
+      <Filter>import\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolT.h">
+      <Filter>unit\basic\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\import\aes\aes.h">
+      <Filter>import\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="test_tinyxml.h">
+      <Filter>import_test\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="test_aes.h">
+      <Filter>import_test\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="lockhelper\LockHelper.h">
+      <Filter>unit\basic\lockhelper</Filter>
+    </ClInclude>
+    <ClInclude Include="test_lock.h">
+      <Filter>unit_test\basic\lockhelper</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicObject.h">
+      <Filter>unit\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="test_inteface.h">
+      <Filter>unit_test\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="pinyin.h">
+      <Filter>unit\string\pinyin</Filter>
+    </ClInclude>
+    <ClInclude Include="OperaterProgressBar.h">
+      <Filter>unit\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>unit\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberProgressBarTest.h">
+      <Filter>unit_test\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="test_OperaterProgressBar.h">
+      <Filter>unit_test\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="x64helper.h">
+      <Filter>unit\system\wow64</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEnumFile.h">
+      <Filter>unit\system\file</Filter>
+    </ClInclude>
+    <ClInclude Include="test_file.h">
+      <Filter>unit_test\system\file</Filter>
+    </ClInclude>
+    <ClInclude Include="FileVersionInfo.h">
+      <Filter>unit\system\file</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test_string.h">
+      <Filter>unit_test\string</Filter>
+    </ClInclude>
+    <ClInclude Include="test_include.h">
+      <Filter>unit\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="MsiComp.h">
+      <Filter>unit\system\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigMgr.h">
+      <Filter>unit\system\file\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="ComfigMgrDef.h">
+      <Filter>unit\system\file\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="test_CongfigMgr.h">
+      <Filter>unit_test\system\file\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="URLEncode.h">
+      <Filter>unit\string\url</Filter>
+    </ClInclude>
+    <ClInclude Include="Wildcard.h">
+      <Filter>unit\string\wildcard</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLoadSize.h">
+      <Filter>unit\string\download_size</Filter>
+    </ClInclude>
+    <ClInclude Include="AppPath.h">
+      <Filter>unit\system\path</Filter>
+    </ClInclude>
+    <ClInclude Include="test_path.h">
+      <Filter>unit_test\system\path</Filter>
+    </ClInclude>
+    <ClInclude Include="time_unit.h">
+      <Filter>unit\system\time</Filter>
+    </ClInclude>
+    <ClInclude Include="test_time.h">
+      <Filter>unit_test\system\time</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpHelper.h">
+      <Filter>unit\net\http</Filter>
+    </ClInclude>
+    <ClInclude Include="test_net.h">
+      <Filter>unit_test\net</Filter>
+    </ClInclude>
+    <ClInclude Include="OSVersion.h">
+      <Filter>unit\system\OSVersion</Filter>
+    </ClInclude>
+    <ClInclude Include="test_system.h">
+      <Filter>unit_test\system</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInfo.h">
+      <Filter>unit\system</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryFile.h">
+      <Filter>unit\system\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\import\src_luaplus\LuaPlus.h">
+      <Filter>import\luaplus</Filter>
+    </ClInclude>
+    <ClInclude Include="test_luaplus.h">
+      <Filter>import_test\luaplus</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderClip.h">
+      <Filter>unit\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorBase.h">
+      <Filter>unit\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\import\unzip\UnZip.h">
+      <Filter>import\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="test_unzip.h">
+      <Filter>import_test\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="OperFile.h">
+      <Filter>unit\system\file</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
