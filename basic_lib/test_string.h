@@ -9,3 +9,4 @@
 void test_Wildcard();
 
 void test_DownLoadSize();
+void testStringPool();

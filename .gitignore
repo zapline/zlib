@@ -18,3 +18,4 @@
 *.opensdf
 /basic_lib/Debug
 /ipch
+/basic_lib/Release
