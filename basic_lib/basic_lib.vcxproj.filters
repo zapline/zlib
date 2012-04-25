@@ -255,6 +255,9 @@
     <ClCompile Include="test_stringPool.cpp">
       <Filter>unit_test\string</Filter>
     </ClCompile>
+    <ClCompile Include="TinyXmlStringPool.cpp">
+      <Filter>unit\string</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\import\tinyxml\utf8testverify.xml">
@@ -404,6 +407,9 @@
       <Filter>unit\system\file</Filter>
     </ClInclude>
     <ClInclude Include="StringPool.h">
+      <Filter>unit\string</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXmlStringPool.h">
       <Filter>unit\string</Filter>
     </ClInclude>
   </ItemGroup>

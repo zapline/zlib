@@ -8,6 +8,8 @@
 #include "test_string.h"
 #include "test_include.h"
 #include "StringPool.h"
+#include "TinyXmlStringPool.h"
+#include "AppPath.h"
 
 void testStringPool()
 {
@@ -18,4 +20,15 @@ void testStringPool()
     wstring sTemp;
     Pool1.Get(3, sTemp);
     wcout<<sTemp<<endl;
+
+    CTinyXmlStringPool Pool2;
+    CStringA strPathFile( CAppPath::Instance().GetCurrentDir() );
+    strPathFile += "..\\..\\document\\test_stringpool.xml";
+    string sPath = strPathFile;
+    Pool2.LoadXmlFile(sPath);
+    string sTemp2;
+    Pool2.Get(1, sTemp2);
+    cout<<sTemp2<<endl;
+    Pool2.Get(2, sTemp2);
+    cout<<sTemp2<<endl;
 }
