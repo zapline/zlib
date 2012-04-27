@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="import">
+      <UniqueIdentifier>{adc455fa-0e8e-426a-8106-d6fadba291ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\xml">
+      <UniqueIdentifier>{4ae5e48b-81b3-4763-9ea2-4d66a4408378}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -27,6 +33,18 @@
     <ClInclude Include="zPanelLib.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\import\tinyxml\tinystr.h">
+      <Filter>import\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\import\tinyxml\tinyxml.h">
+      <Filter>import\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\basic_lib\AppPath.h">
+      <Filter>import</Filter>
+    </ClInclude>
+    <ClInclude Include="..\basic_lib\OperFile.h">
+      <Filter>import</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -34,6 +52,24 @@
     </ClCompile>
     <ClCompile Include="zPanelLib.cpp">
       <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\tinyxml\tinystr.cpp">
+      <Filter>import\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\tinyxml\tinyxml.cpp">
+      <Filter>import\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\tinyxml\tinyxmlerror.cpp">
+      <Filter>import\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\import\tinyxml\tinyxmlparser.cpp">
+      <Filter>import\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\basic_lib\AppPath.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\basic_lib\OperFile.cpp">
+      <Filter>import</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

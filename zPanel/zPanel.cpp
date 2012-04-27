@@ -6,14 +6,23 @@
 
 #include "..\zPanelLib\zPanelLib.h"
 #pragma comment(lib, "..\\bin\\debug\\lib\\zPanelLib.lib")
+#include "..\basic_lib\AppPath.h"
+#include "..\basic_lib\OperFile.h"
 
 #define MAX_LOADSTRING 100
 
 void DoSomeThing()
 {
-    CCCA a;
-    a.a = 1;
-    a.Do();
+    CString sP = CAppPath::Instance().GetCurrentDir();
+    std::wstring sPath(sP);
+    sPath.append(L"..\\..\\document\\testdlg.xml");
+    std::string sData;
+    DWORD dwSize;
+    COperFile::ReadFileBinaryData(sPath, sData, dwSize);
+    CPanelBase panel;
+    panel.LoadXmlData(sData.c_str());
+    HDC hdc = GetDC(NULL);
+    panel.Show(hdc);
 }
 
 // 全局变量:
