@@ -19,3 +19,5 @@
 /basic_lib/Debug
 /ipch
 /basic_lib/Release
+/zPanel/Debug
+/zPanelLib/Debug

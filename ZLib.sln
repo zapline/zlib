@@ -5,6 +5,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic_lib", "basic_lib\basi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luaplus", "import\src_luaplus\luaplus.vcxproj", "{AA75B895-9958-4D71-9419-D86946478CAA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zPanel", "zPanel\zPanel.vcxproj", "{878377A0-4E98-450A-92C4-76C4D60D83FF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zPanelLib", "zPanelLib\zPanelLib.vcxproj", "{B109C046-F457-4B55-86BB-631DC1686705}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +23,14 @@ Global
 		{AA75B895-9958-4D71-9419-D86946478CAA}.Debug|Win32.Build.0 = Debug|Win32
 		{AA75B895-9958-4D71-9419-D86946478CAA}.Release|Win32.ActiveCfg = Release|Win32
 		{AA75B895-9958-4D71-9419-D86946478CAA}.Release|Win32.Build.0 = Release|Win32
+		{878377A0-4E98-450A-92C4-76C4D60D83FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{878377A0-4E98-450A-92C4-76C4D60D83FF}.Debug|Win32.Build.0 = Debug|Win32
+		{878377A0-4E98-450A-92C4-76C4D60D83FF}.Release|Win32.ActiveCfg = Release|Win32
+		{878377A0-4E98-450A-92C4-76C4D60D83FF}.Release|Win32.Build.0 = Release|Win32
+		{B109C046-F457-4B55-86BB-631DC1686705}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B109C046-F457-4B55-86BB-631DC1686705}.Debug|Win32.Build.0 = Debug|Win32
+		{B109C046-F457-4B55-86BB-631DC1686705}.Release|Win32.ActiveCfg = Release|Win32
+		{B109C046-F457-4B55-86BB-631DC1686705}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
