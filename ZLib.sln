@@ -2,6 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic_lib", "basic_lib\basic_lib.vcxproj", "{74B022F2-324B-4686-B84F-2DD046E611CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA75B895-9958-4D71-9419-D86946478CAA} = {AA75B895-9958-4D71-9419-D86946478CAA}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luaplus", "import\src_luaplus\luaplus.vcxproj", "{AA75B895-9958-4D71-9419-D86946478CAA}"
 EndProject
