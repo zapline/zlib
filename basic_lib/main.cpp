@@ -18,6 +18,7 @@
 #include "test_system.h"
 #include "test_luaplus.h"
 #include "test_unzip.h"
+#include "Picture.h"
 
 void test_test()
 {
@@ -75,7 +76,22 @@ void test_test()
 
     //test_unzip();
 
-    testStringPool();
+    //testStringPool();
+
+    char *pp[] = {"hello", "world", "zapline"};
+    CPicture p(pp, 3);
+    cout<<p<<endl;
+
+    CPicture q = Frame(p);
+    cout<<q<<endl;
+
+    CPicture r = p | q;
+    cout<<r<<endl;
+
+    CPicture s = q & r;
+    cout<<s<<endl<<Frame(s)<<endl;
+
+    cout<<Frame(q & ( p | q ))<<endl;
 }
 
 int main()

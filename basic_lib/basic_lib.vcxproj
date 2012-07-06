@@ -98,6 +98,7 @@
     <ClCompile Include="OperaterProgressBar.cpp" />
     <ClCompile Include="OperFile.cpp" />
     <ClCompile Include="OSVersion.cpp" />
+    <ClCompile Include="Picture.cpp" />
     <ClCompile Include="ProgressBar.cpp" />
     <ClCompile Include="RenderClip.cpp" />
     <ClCompile Include="SystemInfo.cpp" />
@@ -133,6 +134,7 @@
     <ClInclude Include="AppPath.h" />
     <ClInclude Include="BasicObject.h" />
     <ClInclude Include="ColorBase.h" />
+    <ClInclude Include="Picture.h" />
     <ClInclude Include="TinyXmlStringPool.h" />
     <ClInclude Include="MemoryFile.h" />
     <ClInclude Include="ComfigMgrDef.h" />
