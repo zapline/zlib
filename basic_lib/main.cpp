@@ -18,6 +18,7 @@
 #include "test_system.h"
 #include "test_luaplus.h"
 #include "test_unzip.h"
+#include "timeinterval.h"
 
 void test_test()
 {
@@ -75,7 +76,25 @@ void test_test()
 
     //test_unzip();
 
-    testStringPool();
+    //testStringPool();
+
+    double ss;
+    ITimeInterval *i1 = new CTimeInterval;
+    ITimeInterval *i2 = new CTimeIntervalEx;
+
+    for (int i=0; i<10;i++)
+    {
+        i1->Start();
+        i1->Stop(ss);
+        printf("%f\n", ss);
+        i2->Start();
+        i2->Stop(ss);
+        printf("%f\n", ss);
+    }
+
+    delete i1;
+    delete i2;
+
 }
 
 int main()

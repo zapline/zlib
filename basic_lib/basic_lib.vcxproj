@@ -115,6 +115,7 @@
     <ClCompile Include="test_tinyxml.cpp" />
     <ClCompile Include="test_unzip.cpp" />
     <ClCompile Include="test_Wildcard.cpp" />
+    <ClCompile Include="timeinterval.cpp" />
     <ClCompile Include="time_unit.cpp" />
     <ClCompile Include="TinyXmlStringPool.cpp" />
     <ClCompile Include="URLEncode.cpp" />
@@ -133,6 +134,8 @@
     <ClInclude Include="AppPath.h" />
     <ClInclude Include="BasicObject.h" />
     <ClInclude Include="ColorBase.h" />
+    <ClInclude Include="itimeinterval.h" />
+    <ClInclude Include="timeinterval.h" />
     <ClInclude Include="TinyXmlStringPool.h" />
     <ClInclude Include="MemoryFile.h" />
     <ClInclude Include="ComfigMgrDef.h" />

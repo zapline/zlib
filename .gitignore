@@ -21,3 +21,5 @@
 /basic_lib/Release
 /zPanel/Debug
 /zPanelLib/Debug
+/import/src_luaplus/Debug
+/import/src_luaplus/Release
