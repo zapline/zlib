@@ -117,6 +117,8 @@
     <ClCompile Include="test_unzip.cpp" />
     <ClCompile Include="test_Wildcard.cpp" />
     <ClCompile Include="timeinterval.cpp" />
+    <ClCompile Include="timeintervalcalc.cpp" />
+    <ClCompile Include="timeintervalcalc4cout.cpp" />
     <ClCompile Include="time_unit.cpp" />
     <ClCompile Include="TinyXmlStringPool.cpp" />
     <ClCompile Include="URLEncode.cpp" />
@@ -138,6 +140,8 @@
     <ClInclude Include="Picture.h" />
     <ClInclude Include="itimeinterval.h" />
     <ClInclude Include="timeinterval.h" />
+    <ClInclude Include="timeintervalcalc.h" />
+    <ClInclude Include="timeintervalcalc4cout.h" />
     <ClInclude Include="TinyXmlStringPool.h" />
     <ClInclude Include="MemoryFile.h" />
     <ClInclude Include="ComfigMgrDef.h" />

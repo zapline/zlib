@@ -20,6 +20,7 @@
 #include "test_unzip.h"
 #include "Picture.h"
 #include "timeinterval.h"
+#include "timeintervalcalc4cout.h"
 
 void test_test()
 {
@@ -79,38 +80,44 @@ void test_test()
 
     //testStringPool();
 
-    char *pp[] = {"hello", "world", "zapline"};
-    CPicture p(pp, 3);
-    cout<<p<<endl;
-
-    CPicture q = Frame(p);
-    cout<<q<<endl;
-
-    CPicture r = p | q;
-    cout<<r<<endl;
-
-    CPicture s = q & r;
-    cout<<s<<endl<<Frame(s)<<endl;
-
-    cout<<Frame(q & ( p | q ))<<endl;
+//     char *pp[] = {"hello", "world", "zapline"};
+//     CPicture p(pp, 3);
+//     cout<<p<<endl;
+// 
+//     CPicture q = Frame(p);
+//     cout<<q<<endl;
+// 
+//     CPicture r = p | q;
+//     cout<<r<<endl;
+// 
+//     CPicture s = q & r;
+//     cout<<s<<endl<<Frame(s)<<endl;
+// 
+//     cout<<Frame(q & ( p | q ))<<endl;
     //testStringPool();
 
-    double ss;
-    ITimeInterval *i1 = new CTimeInterval;
-    ITimeInterval *i2 = new CTimeIntervalEx;
+//     double ss;
+//     ITimeInterval *i1 = new CTimeInterval;
+//     ITimeInterval *i2 = new CTimeIntervalEx;
+// 
+//     for (int i=0; i<10;i++)
+//     {
+//         i1->Start();
+//         Sleep(100);
+//         i1->Stop(ss);
+//         printf("%f\n", ss);
+//         i2->Start();
+//         Sleep(100);
+//         i2->Stop(ss);
+//         printf("%f\n", ss);
+//     }
+// 
+//     delete i1;
+//     delete i2;
+//     
 
-    for (int i=0; i<10;i++)
-    {
-        i1->Start();
-        i1->Stop(ss);
-        printf("%f\n", ss);
-        i2->Start();
-        i2->Stop(ss);
-        printf("%f\n", ss);
-    }
-
-    delete i1;
-    delete i2;
+    CTimeIntervalCalc4Out sss;
+    Sleep(100);
 
 }
 

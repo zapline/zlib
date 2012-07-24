@@ -264,6 +264,12 @@
     <ClCompile Include="timeinterval.cpp">
       <Filter>unit\system\time</Filter>
     </ClCompile>
+    <ClCompile Include="timeintervalcalc.cpp">
+      <Filter>unit\system\time</Filter>
+    </ClCompile>
+    <ClCompile Include="timeintervalcalc4cout.cpp">
+      <Filter>unit\system\time</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\import\tinyxml\utf8testverify.xml">
@@ -425,6 +431,12 @@
       <Filter>unit\system\time</Filter>
     </ClInclude>
     <ClInclude Include="timeinterval.h">
+      <Filter>unit\system\time</Filter>
+    </ClInclude>
+    <ClInclude Include="timeintervalcalc.h">
+      <Filter>unit\system\time</Filter>
+    </ClInclude>
+    <ClInclude Include="timeintervalcalc4cout.h">
       <Filter>unit\system\time</Filter>
     </ClInclude>
   </ItemGroup>
