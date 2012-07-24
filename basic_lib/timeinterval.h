@@ -24,6 +24,7 @@ private:
     DWORD m_dwTimeBegin; ///> 开始计时的时间
 };
 
+
 ///> 使用QueryPerformanceCounter计时，高精度
 class CTimeIntervalEx : public ITimeInterval
 {

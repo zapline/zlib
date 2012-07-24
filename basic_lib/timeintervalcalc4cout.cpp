@@ -9,22 +9,17 @@
 #include <iostream>
 #include "timeintervalcalc4cout.h"
 
-CTimeIntervalCalc4Out::CTimeIntervalCalc4Out()
+CTimeIntervalCalc4Cout::CTimeIntervalCalc4Cout()
+{
+    SetTimeIntervalCalcDo(&m_Do);
+}
+
+CTimeIntervalCalc4Cout::~CTimeIntervalCalc4Cout()
 {
 
 }
 
-CTimeIntervalCalc4Out::~CTimeIntervalCalc4Out()
-{
-
-}
-
-void CTimeIntervalCalc4Out::DoAfterCalc( double dfTimeInterval )
+void CTimeIntervalCalcDoCout::DoAfterCalc( double dfTimeInterval )
 {
     std::cout<<dfTimeInterval<<std::endl;
-}
-
-void CTimeIntervalCalc4Out::DoBeforeCalc()
-{
-    ;
 }

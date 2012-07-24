@@ -21,6 +21,7 @@
 #include "Picture.h"
 #include "timeinterval.h"
 #include "timeintervalcalc4cout.h"
+#include "timeintervalcalc4log.h"
 
 void test_test()
 {
@@ -116,8 +117,9 @@ void test_test()
 //     delete i2;
 //     
 
-    CTimeIntervalCalc4Out sss;
+    PERF_BEGIN();
     Sleep(100);
+    PERF_END(L"test %d", 3);
 
 }
 

@@ -10,15 +10,20 @@
 #ifndef _TIMEINTERVALCALC4COUT_H_
 #define _TIMEINTERVALCALC4COUT_H_
 
-class CTimeIntervalCalc4Out : public CTimeIntervalCalc
+class CTimeIntervalCalcDoCout : public ITimeIntervalCalcDo
 {
 public:
-    CTimeIntervalCalc4Out();
-    virtual ~CTimeIntervalCalc4Out();
+    virtual void DoAfterCalc( double dfTimeInterval );
+};
 
+class CTimeIntervalCalc4Cout : public CTimeIntervalCalc
+{
 public:
-    virtual void DoBeforeCalc();
-    virtual void DoAfterCalc(double dfTimeInterval);
+    CTimeIntervalCalc4Cout();
+    virtual ~CTimeIntervalCalc4Cout();
+
+private:
+    CTimeIntervalCalcDoCout m_Do;
 };
 
 #endif

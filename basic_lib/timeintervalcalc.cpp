@@ -10,30 +10,38 @@
 
 CTimeIntervalCalc::CTimeIntervalCalc(BOOL bHignPrecision)
 {
-    DoBeforeCalc();
     if (bHignPrecision)
     {
-        m_iTimeInterval = new CTimeIntervalEx;
+        m_piTimeInterval = new CTimeIntervalEx;
     }
     else
     {
-        m_iTimeInterval = new CTimeInterval;
+        m_piTimeInterval = new CTimeInterval;
     }
-    if (m_iTimeInterval)
+    if (m_piTimeInterval)
     {
-        m_iTimeInterval->Start();
+        m_piTimeInterval->Start();
     }
 }
 
 CTimeIntervalCalc::~CTimeIntervalCalc()
 {
-    if (m_iTimeInterval)
+    if (m_piTimeInterval)
     {
         double dfTime = 0.0;
-        if (m_iTimeInterval->Stop(dfTime))
+        if (m_piTimeInterval->Stop(dfTime))
         {
-            DoAfterCalc(dfTime);
+            if (m_piTimeIntervalCalcDo)
+            {
+                m_piTimeIntervalCalcDo->DoAfterCalc(dfTime);
+            }
         }
-        delete m_iTimeInterval;
+        delete m_piTimeInterval;
     }
+}
+
+void CTimeIntervalCalc::SetTimeIntervalCalcDo( 
+    ITimeIntervalCalcDo* piTimeIntervalCalcDo )
+{
+    m_piTimeIntervalCalcDo = piTimeIntervalCalcDo;
 }

@@ -119,6 +119,8 @@
     <ClCompile Include="timeinterval.cpp" />
     <ClCompile Include="timeintervalcalc.cpp" />
     <ClCompile Include="timeintervalcalc4cout.cpp" />
+    <ClCompile Include="timeintervalcalc4kmsg.cpp" />
+    <ClCompile Include="timeintervalcalc4log.cpp" />
     <ClCompile Include="time_unit.cpp" />
     <ClCompile Include="TinyXmlStringPool.cpp" />
     <ClCompile Include="URLEncode.cpp" />
@@ -142,6 +144,8 @@
     <ClInclude Include="timeinterval.h" />
     <ClInclude Include="timeintervalcalc.h" />
     <ClInclude Include="timeintervalcalc4cout.h" />
+    <ClInclude Include="timeintervalcalc4kmsg.h" />
+    <ClInclude Include="timeintervalcalc4log.h" />
     <ClInclude Include="TinyXmlStringPool.h" />
     <ClInclude Include="MemoryFile.h" />
     <ClInclude Include="ComfigMgrDef.h" />
