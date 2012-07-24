@@ -261,6 +261,9 @@
     <ClCompile Include="Picture.cpp">
       <Filter>unit\ui</Filter>
     </ClCompile>
+    <ClCompile Include="timeinterval.cpp">
+      <Filter>unit\system\time</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\import\tinyxml\utf8testverify.xml">
@@ -417,6 +420,12 @@
     </ClInclude>
     <ClInclude Include="Picture.h">
       <Filter>unit\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="itimeinterval.h">
+      <Filter>unit\system\time</Filter>
+    </ClInclude>
+    <ClInclude Include="timeinterval.h">
+      <Filter>unit\system\time</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
