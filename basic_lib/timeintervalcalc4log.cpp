@@ -10,7 +10,7 @@
 
 void CTimeIntervalCalcDoLog::DoAfterCalc( double dfTimeInterval )
 {
-    wprintf(L"%s : %f", m_strLogText, dfTimeInterval);
+    wprintf(L"<PERF>%s(%fms)", m_strLogText, dfTimeInterval);
 }
 
 CTimeIntervalCalcDoLog::CTimeIntervalCalcDoLog()
